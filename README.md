@@ -24,10 +24,11 @@ Zusammenfassung bisheriger Studien
 ### 4. Analyse
 Beschreibung
 
-→ [Siehe Notebook](01_data_preparation.ipynb)
+→ [Siehe Notebook](analysis.ipynb)
 
 
 ### 5. Ergebnisse
 
 
 ### 6. Quellen
+[1] Pei, S. et al. (2020). Monocytic Subclones Confer Resistance to Venetoclax-Based Therapy in Patients with Acute Myeloid Leukemia. Cancer Discovery, 10(4), 536–551. https://doi.org/10.1158/2159-8290.CD-19-0710
