@@ -4,7 +4,7 @@ Datensatzes an, um meine Erfahrungen mit Datenanalysen zu veranschaulichen.
 Das Ziel soll dabei die praktische Anwendung statistischer Methoden sein und nicht, wissenschaftliche Erkenntnisse abzuleiten.
 
 Ausgangspunkt ist die Studie von Liu et al. (2022), _GFI1B acts as a metabolic regulator in hematopoiesis and acute 
-myeloid leukemia_ [1]. Darauf aufbauend möchte ich die dort beschriebenen Ergebnisse zum Zusammenhang 
+myeloid leukemia_ [[1]](#6-quellen). Darauf aufbauend möchte ich die dort beschriebenen Ergebnisse zum Zusammenhang 
 zwischen der _GFI1B_-Expression und der Venetoclax-Empfindlichkeit anhand des Beat AML 2.0-Datensatzes weiter untersuchen.
 
 ### 1. Einleitung
@@ -45,7 +45,7 @@ Aus der Studie von Liu et al. ergibt sich die biologische Motivation für die Fr
 keine Replikation der Auswertung der Studie und prüft lediglich eine statistische Assoziation.
 
 ### 2. Datenquelle
-Öffentlich bereitgestellte BeatAML 2.0 Daten [2]:
+Öffentlich bereitgestellte BeatAML 2.0 Daten [[2]](#6-quellen):
 https://github.com/biodev/beataml2.0_data
 
 - Datum des Abrufs: 02.10.2026
@@ -93,7 +93,7 @@ Die geschätzte Effektgröße verändert sich gegenüber dem unadjustierten Mode
 Das Modell erklärt insgesamt etwa 7,6 % der Variation der AUC, sodass weiterhin ein großer Teil der Unterschiede zwischen den Proben offenbleibt.
 
 Als ergänzende Sensitivitätsanalyse habe ich den Monocyte-like-Score als Variable verwendet, da es Hinweise darauf gibt, dass 
-monozytär differenzierte AML mit einer höheren Resistenz gegenüber Venetoclax assoziiert ist [3].
+monozytär differenzierte AML mit einer höheren Resistenz gegenüber Venetoclax assoziiert ist [[3]](#6-quellen).
 Dabei bildet der verwendete Monocyte-like-Score lediglich den Zellzustand anhand molekularer Merkmale 
 ab, aber ist nicht gleichzusetzen mit monozytär differenzierter AML.
 Für die Analyse stehen 288 statt 307 Samples zur Verfügung, da bei 19 Samples der Score fehlt. Um die Ergebnisse sinnvoll 
